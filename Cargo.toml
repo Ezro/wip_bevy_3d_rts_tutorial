@@ -28,5 +28,6 @@ bevy_obj = "0.7"
 serde = "1.0"
 ron = "0.7"
 rand = "0.8"
+bevy_prototype_debug_lines = { version = "*", git = "https://github.com/Toqozz/bevy_debug_lines.git", features  = ["3d"] }
 
 # cargo run --release --features bevy/trace,bevy/trace_chrome
